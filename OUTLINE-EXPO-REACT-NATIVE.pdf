@@ -1,0 +1,133 @@
+%PDF-1.4
+%Expo outline
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 2829 >>
+stream
+BT /F1 17 Tf 1 0 0 1 48 770 Tm (Outline Instalasi Aplikasi React Native dengan Expo) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 737 Tm (Panduan ringkas membuat proyek Expo baru dan memasang paket satu per satu. Perintah di bawah) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 724 Tm (  menggunakan npm dan Expo CLI. npx expo install disarankan untuk memilih versi paket yang) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 711 Tm (  kompatibel dengan SDK Expo.) Tj ET
+BT /F1 12 Tf 1 0 0 1 48 693 Tm (1. Persiapan) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 673 Tm (- Pasang Node.js versi LTS.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 660 Tm (- Siapkan npm \(sudah disertakan dengan Node.js\).) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 647 Tm (- Siapkan Visual Studio Code atau editor pilihan.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 634 Tm (- Android Studio/perangkat Android dan Xcode/perangkat iOS diperlukan hanya jika ingin) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 621 Tm (  menjalankan aplikasi pada emulator atau perangkat terkait. Xcode memerlukan macOS.) Tj ET
+BT /F1 12 Tf 1 0 0 1 48 603 Tm (2. Buat proyek baru) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 583 Tm (npx create-expo-app@latest nama-aplikasi) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 570 Tm (cd nama-aplikasi) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 552 Tm (Template default sudah memasang paket dasar, TypeScript, dan Expo Router. Untuk proyek baru,) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 539 Tm (  biasanya tidak perlu memasang ulang paket-paket yang sudah ada.) Tj ET
+BT /F1 12 Tf 1 0 0 1 48 521 Tm (3. Paket inti) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 501 Tm (Paket berikut disiapkan otomatis oleh create-expo-app. Perintah ditampilkan sebagai) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 488 Tm (  referensi jika paket inti memang belum ada di proyek.) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 470 Tm (npx expo install expo) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 457 Tm (npx expo install react) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 444 Tm (npx expo install react-native) Tj ET
+BT /F1 12 Tf 1 0 0 1 48 426 Tm (4. Navigasi dan tautan) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 406 Tm (Pasang jika proyek belum menyertakannya dan aplikasi akan memakai Expo Router.) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 388 Tm (npx expo install expo-router) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 375 Tm (npx expo install expo-linking) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 357 Tm (Expo Router juga memerlukan beberapa paket pendukung:) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 339 Tm (npx expo install react-native-safe-area-context) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 326 Tm (npx expo install react-native-screens) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 313 Tm (npx expo install expo-constants) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 300 Tm (npx expo install expo-status-bar) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 282 Tm (Pada template default, paket tersebut biasanya sudah terpasang. Ikuti panduan instalasi Expo) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 269 Tm (  Router jika menambahkannya ke proyek yang sudah berjalan.) Tj ET
+BT /F1 8 Tf 1 0 0 1 500 24 Tm (1 / 3) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2463 >>
+stream
+BT /F1 12 Tf 1 0 0 1 48 765 Tm (5. Tampilan dan fitur perangkat) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 745 Tm (Pasang hanya fitur yang digunakan aplikasi. Paket-paket ini umum dijumpai di template atau) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 732 Tm (  aplikasi Expo.) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 714 Tm (npx expo install expo-image) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 701 Tm (npx expo install expo-font) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 688 Tm (npx expo install expo-device) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 675 Tm (npx expo install expo-system-ui) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 662 Tm (npx expo install expo-web-browser) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 649 Tm (npx expo install expo-splash-screen) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 636 Tm (npx expo install expo-symbols) Tj ET
+BT /F1 12 Tf 1 0 0 1 48 618 Tm (6. Gestur dan animasi) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 598 Tm (Tambahkan bila aplikasi menggunakan gestur atau animasi yang memerlukannya.) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 580 Tm (npx expo install react-native-gesture-handler) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 567 Tm (npx expo install react-native-reanimated) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 554 Tm (npx expo install react-native-worklets) Tj ET
+BT /F1 12 Tf 1 0 0 1 48 536 Tm (7. TypeScript) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 516 Tm (Template default sudah menyertakan TypeScript. Jika perlu memasangnya pada proyek yang sudah) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 503 Tm (  ada, jalankan perintah berikut di Windows PowerShell:) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 485 Tm (npx expo install typescript "--" --dev) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 472 Tm (npx expo install @types/react "--" --dev) Tj ET
+BT /F1 12 Tf 1 0 0 1 48 454 Tm (8. Dukungan web \(opsional\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 434 Tm (Pasang jika aplikasi juga akan dijalankan di web.) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 416 Tm (npx expo install react-dom) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 403 Tm (npx expo install react-native-web) Tj ET
+BT /F1 12 Tf 1 0 0 1 48 385 Tm (9. Pasang semua dependensi proyek dan jalankan aplikasi) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 365 Tm (Jika proyek sudah dibuat tetapi dependensinya belum dipasang, gunakan:) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 347 Tm (npm install) Tj ET
+BT /F2 8 Tf 1 0 0 1 48 334 Tm (npx expo start) Tj ET
+BT /F1 12 Tf 1 0 0 1 48 316 Tm (10. Catatan penting) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 296 Tm (- Periksa package.json sebelum memasang paket; jangan memasang ulang paket yang sudah) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 283 Tm (  tercantum.) Tj ET
+BT /F1 8 Tf 1 0 0 1 500 24 Tm (2 / 3) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1113 >>
+stream
+BT /F1 9 Tf 1 0 0 1 48 770 Tm (- Gunakan npx expo install nama-paket untuk dependensi Expo dan React Native agar versi) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 757 Tm (  disesuaikan dengan SDK proyek.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 744 Tm (- Tidak semua paket pada outline ini wajib. Pasang hanya paket yang diperlukan oleh fitur) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 731 Tm (  aplikasi.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 718 Tm (- npm install memasang dependensi yang sudah tercantum dalam proyek; untuk menambahkan paket) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 705 Tm (  Expo baru, gunakan npx expo install.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 692 Tm (- Versi paket yang tersedia bergantung pada versi Expo SDK yang digunakan.) Tj ET
+BT /F1 12 Tf 1 0 0 1 48 674 Tm (Referensi resmi) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 654 Tm (- Membuat proyek: https://docs.expo.dev/get-started/create-a-project/) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 641 Tm (- Instalasi Expo Router: https://docs.expo.dev/router/installation/) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 628 Tm (- Menggunakan TypeScript: https://docs.expo.dev/guides/typescript/) Tj ET
+BT /F1 8 Tf 1 0 0 1 500 24 Tm (3 / 3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000023 00000 n 
+0000000072 00000 n 
+0000000141 00000 n 
+0000000278 00000 n 
+0000003159 00000 n 
+0000003296 00000 n 
+0000005811 00000 n 
+0000005948 00000 n 
+0000007113 00000 n 
+0000007210 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+7306
+%%EOF

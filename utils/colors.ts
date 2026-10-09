@@ -1,0 +1,20 @@
+export const colors = {
+    active: "#09637E",
+    inactive: "#7AB2B2",
+    background: "#EBF4F6",
+
+  primary: "#3498db",
+  secondary: "#2ecc71", 
+    accent: "#e74c3c",
+    text: "#2c3e50",
+    border: "#bdc3c7",
+    success: "#27ae60",
+    warning: "#f39c12",
+    error: "#c0392b",
+    info: "#2980b9",
+    light: "#f5f5f5",
+    dark: "#34495e",
+    muted: "#95a5a6",
+    white: "#ffffff",
+    black: "#000000",
+}
